@@ -1,14 +1,13 @@
-
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.Test;
+import org.junit.Test.*;
+import static org.junit.Assert.*;
 class Test {
 
-	@Test
+	
 	void test1() {
 		sc w = new sc();
 		assertTrue(0==w.getCount());
 	}
-	@Test
+	
 	void test2() {
 		sc w = new sc();
 		books B  = new books();
@@ -19,7 +18,7 @@ class Test {
 		assertTrue(1==w.getCount());
 		assertTrue(340==w.getAmount());
 	}
-	@Test
+	
 	void test3() {
 		sc w = new sc();
 		books B  = new books();
@@ -35,7 +34,7 @@ class Test {
 		assertTrue(2==w.getCount());
 		assertTrue(270==w.getAmount());
 	}
-	@Test
+	
 	void test4() {
 		sc w = new sc();
 		books B  = new books();

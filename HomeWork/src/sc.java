@@ -1,6 +1,7 @@
 
 import java.util.ArrayList;
 
+
 public class sc {
  private int count ;
  private int Amount;
@@ -34,7 +35,7 @@ public class sc {
 	public void totalprice() {
 		int adder = 0;
 		for(int i=0;i<x.size();i++) {
-		adder = adder+this.x.get(i).getBookprice();
+		adder = adder+this.x.get(i).getBookprice()*this.x.get(i).getCount();
 		}
 		this.setAmount(adder);	
 		
